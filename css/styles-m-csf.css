@@ -939,7 +939,7 @@ body.show-newsletter .newsletter-form { opacity: 1; visibility: visible; }
 .nf-form-item .form-txt::-ms-input-placeholder { opacity: 1 !important; font-size: 13px !important; color: #231f20 !important; font-style: normal !important; }
 .nf-form-item .form-txt::placeholder { opacity: 1 !important; font-size: 13px !important; color: #231f20 !important; font-style: normal !important; }
 
-.nf-form-submit .btn-primary { position: absolute; bottom: 0; right: 0; width: 115px; height: 43px; background: #231f20; padding: 0 10px; border-radius: 0; font-size: 11px; line-height: 43px; color: #fff; text-transform: uppercase; }
+.nf-form-submit .btn-primary { position: absolute; bottom: 24px; right: 0; width: 115px; height: 43px; background: #231f20; padding: 0 10px; border-radius: 0; font-size: 11px; line-height: 43px; color: #fff; text-transform: uppercase; }
 .nf-form-submit .btn-primary:before { display: none; }
 .nf-form-submit .btn-primary i { display: none; }
 
