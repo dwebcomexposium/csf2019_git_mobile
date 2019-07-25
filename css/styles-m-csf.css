@@ -138,7 +138,7 @@ body.show-fixed-header:not(.show-nav-main) .site-banner .nav-bar .header-topquic
 body.show-fixed-header:not(.show-nav-main) .site-banner .nav-bar { -webkit-box-shadow: 0 0 30px rgba(35,31,32,.3); box-shadow: 0 0 30px rgba(35,31,32,.3); }
 
 body.show-fixed-header:not(.show-nav-main) .site-banner .global-search-form,
-body.show-fixed-header:not(.show-nav-main) .site-banner #cxpmClientAccountWidget { display: none; }
+body.show-fixed-header:not(.show-nav-main) .site-banner #cxpmClientAccountWidget { display: none!important; }
 
 @-webkit-keyframes fromTop {
 	0% { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
@@ -1422,11 +1422,14 @@ ul.style3 .lien1 { margin-bottom: 0; }
 .tab.active { position: relative; opacity: 1; visibility: visible; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; }
 
 @media (max-width: 375px) {
-	.tabs .tabs__nav ul { display: block; text-align: center; }
+	/*.tabs .tabs__nav ul { display: block; text-align: center; }
 	.tabs .tabs__nav li.active a { font-size: 10px; line-height: 1.7; text-decoration: underline; }
 	.tabs .tabs__nav li + li a:before { display: none;  }
 	.tabs .tabs__nav li a { padding: 10px 10px; }
-	.tabs .tabs__nav li a:after { opacity: 1; visibility: visible; }
+	.tabs .tabs__nav li a:after { opacity: 1; visibility: visible; }*/
+	.tabs .tabs__nav li a { font-size: 9px; font-weight: 500; padding: 15px 10px; }
+	.tabs .tabs__nav li.active a { font-size: 9px; }
+	
 
 	.tabs .tab { padding: 25px 12px; }
 	.tabs .tab .logo { max-width: 85px; -webkit-box-flex: 0; -ms-flex: 0 0 85px; flex: 0 0 85px; }
@@ -1486,6 +1489,11 @@ ul.style3 .lien1 { margin-bottom: 0; }
 	.exposer-link-objectifs .ql-list { margin: 0 -5px; }
 	.exposer-link-objectifs .ql-item { padding: 0 5px; }
 }
+
+
+/*hide connect / lp exposez*/
+body.exposer #widgetMobileLinkOpenCap, body.exposer #cxpmClientAccountWidget  { display: none; }
+body.exposer.show-nav-main .site-banner .global-search-form { left: 25px; }
 
 /* ------------------------------------------------------------ *\
 	Cookies
