@@ -1492,7 +1492,7 @@ ul.style3 .lien1 { margin-bottom: 0; }
 
 
 /*hide connect / lp exposez*/
-body.exposer #widgetMobileLinkOpenCap, body.exposer #cxpmClientAccountWidget  { display: none; }
+body.exposer #widgetMobileLinkOpenCap, body.exposer #cxpmClientAccountWidget  { display: none!important; }
 body.exposer.show-nav-main .site-banner .global-search-form { left: 25px; }
 
 /* ------------------------------------------------------------ *\
