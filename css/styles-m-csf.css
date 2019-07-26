@@ -307,7 +307,10 @@ body.show-fixed-header:not(.show-nav-main) .site-banner #cxpmClientAccountWidget
 .is-open .mn-link.mn-link { background: #fff; color: #231f20; }
 
 .mn-menu-item-avecpicto .mn-link-text { margin-left: 0; }
-.mn-menu-item-avecpicto i { display: inline-block; margin-right: 0; color: #e4e1dd; }
+.mn-menu-item-avecpicto i { display: inline-block; margin-right: 0; color: #e4e1dd!important; }
+.mn-menu-item-avecpicto i.icon:before { font-weight: bold; }
+
+
 .mn-menu-item-avecpicto i:before { line-height: 1.2 !important; }
 .mn-menu-item-avecpicto .mn-link-text:before { display: none; }
 
@@ -1492,7 +1495,7 @@ ul.style3 .lien1 { margin-bottom: 0; }
 
 
 /*hide connect / lp exposez*/
-body.exposer #widgetMobileLinkOpenCap, body.exposer #cxpmClientAccountWidget  { display: none!important; }
+#widgetMobileLinkOpenCap, body.exposer #cxpmClientAccountWidget  { display: none!important; }
 body.exposer.show-nav-main .site-banner .global-search-form { left: 25px; }
 
 /* ------------------------------------------------------------ *\
