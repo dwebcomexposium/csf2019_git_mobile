@@ -85,6 +85,17 @@ nav ol { list-style: none outside none; }
 
 abbr[title] { border: 0; text-decoration: none; }
 
+
+
+div, span {
+  word-wrap: normal;
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+}
+
+
 /* ------------------------------------------------------------ *\
 	Base Styles
 \* ------------------------------------------------------------ */
