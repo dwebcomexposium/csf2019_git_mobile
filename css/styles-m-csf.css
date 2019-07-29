@@ -1081,7 +1081,7 @@ body:not(.front) .list-articles .gla-item-author { display: none; }
 .article-title .at-content a:hover { color: #231f20; }
 .article-title .at-content > * { width: 100%; }
 
-.at-main-title { padding: 0; margin-bottom: 30px; font-size: 33px; line-height: 1.22; color: #231f20; font-weight: 300; letter-spacing: 0; }
+.at-main-title, .error404 h1, .search-result h1 { padding: 0; margin-bottom: 30px; font-size: 33px; line-height: 1.22; color: #231f20; font-weight: 300; letter-spacing: 0; }
 .at-main-title:last-child { margin-bottom: 0; }
 
 .at-tag { display: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; padding-top: 0; border-top: 0; margin-bottom: 20px; font-size: 12px; }
@@ -1191,7 +1191,7 @@ background-size: 100% 1px; }
 .article-focus .btn-primary { margin-top: 22px; }
 
 @media (max-width: 375px) {
-	.at-main-title { font-size: 27px; }
+	.at-main-title, .error404 h1, .search-result h1 { font-size: 27px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -1538,3 +1538,64 @@ body.exposer.show-nav-main .site-banner .global-search-form { left: 25px; }
 .cc-cookie-accept:focus:before, 
 .cc-cookie-accept:hover:before, 
 .cc-cookie-accept:active:before { -webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1); opacity: 1; }
+
+
+
+
+/* ------------------------------------------------------------ *\
+    Ajax search
+\* ------------------------------------------------------------ */
+.tt-dropdown-menu .typeahead-section-name {color: #0c0803; padding-top: 15px; border-bottom: 0; }
+.tt-dropdown-menu {width:260px!important; margin-left: -50px!important; z-index: 22; margin-top: 15px!important; box-shadow: none; box-shadow: 0 0 50px rgba(35,31,32,.1)); }
+.tt-dropdown-menu a {color: #0c0803; font-weight: 300; text-decoration:none;}
+.tt-dropdown-menu span.tt-suggest-text {text-decoration: none; font-size: 13px;  }
+.tt-dropdown-menu .tt-dropdown-contents { padding: 0 17px; }
+.tt-dropdown-menu .tt-text-intro {	display: none; }
+.tt-dropdown-menu strong.tt-highlight {font-weight: 700!important; color: #0c0803;}
+.tt-suggestion a:focus strong.tt-highlight, .tt-suggestion a:hover strong.tt-highlight {color: #0c0803;}
+.tt-suggestion a { text-decoration: none!important; }
+.tt-suggestion a:focus, .tt-suggestion a:hover { text-decoration: none; background: #f2f2f2; color: #0c0803; }
+
+
+
+/* ------------------------------------------------------------ *\
+    Search page
+\* ------------------------------------------------------------ */
+
+.layout-2-col .search-result { width: 100%; display: table-cell; }
+.search-result { color: #231f20; /*max-width: 980px; display: block; */margin: 0 auto;  }
+.search-result .sr-group-exponent div.sr-item-img { display: none; }
+.search-result h2 { color: #231f20; padding-top: 30px; }
+.search-result h3 a:hover, .search-result h3 a { color: #231f20; }
+.search-result img.la-item-img {margin-right: 0; width: 200px; }
+.search-result mark.sr-term {color: #231f20; font-weight: bold; }
+.search-result .gsf-submit-text {display: none; }
+.search-result small.sr-nb-result {font-size: 14px; letter-spacing: 1px; }
+.search-result .sr-group-exponent .sr-item-content {padding: 0; width: 100%; }
+.search-result .sr-item {margin: 20px 0; display: block; border-bottom: none; padding: 15px 0 0; }
+.search-result .global-search-form { margin: 0 0 35px 0;  }
+.search-result .sr-form {display: none; }
+
+
+
+/* ------------------------------------------------------------ *\
+    404
+\* ------------------------------------------------------------ */
+.error404 .intro {margin-top: 30px; }
+.error404 .global-search-form, .error404 #zone1 { display: none; }
+.error404 .intro p.txtcenter {padding-bottom: 20px; }
+.error404 figcaption {display: none; }
+.error404 img  {padding-bottom: 40px; }
+
+
+/* ------------------------------------------------------------ *\
+    partners
+\* ------------------------------------------------------------ */
+
+body.partner h2.main-title {display: block;  margin-top: 50px; }
+body.partner .pg-item-group {justify-content: space-evenly; }
+body.partner .slider-item { padding: 10px; margin: 10px 5px 15px; width: 120px; background-color: #fff; box-shadow: 0 0 40px rgba(35,31,32,.1); border: 0; border-radius: 13px; }
+body.partner .pg-item-title {display: none;  }
+body.partner .slider-item img {max-height: 80px; vertical-align: middle; }
+body.partner .slider-item .pg-item-illust {height: 80px; line-height: 80px;  text-align: center; }
+
