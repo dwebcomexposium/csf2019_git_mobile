@@ -1599,3 +1599,5 @@ body.partner .pg-item-title {display: none;  }
 body.partner .slider-item img {max-height: 80px; vertical-align: middle; }
 body.partner .slider-item .pg-item-illust {height: 80px; line-height: 80px;  text-align: center; }
 
+.cap-bg.cap-zoom-in.cap-ready, .cap-wrap {z-index:999999!important}
+
