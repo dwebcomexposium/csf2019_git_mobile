@@ -373,7 +373,7 @@ background-size: 100% 1px; }
 
 @media (max-width: 375px) {
 	.heading .heading__content { padding-left: 7px; letter-spacing: .15em; }
-	.heading .heading__aside { min-width: 65px; padding-right: 7px; }
+	.heading .heading__aside { min-width: 70px; padding-right: 7px; }
 	.heading .heading__foot p { letter-spacing: .1em; }
 
 	.heading--alt { padding: 0; margin-top: 0; }
@@ -1763,3 +1763,4 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 
 .cap-bg.cap-zoom-in.cap-ready{z-index:9999!important}
 .cap-wrap{z-index:99999!important}
+
