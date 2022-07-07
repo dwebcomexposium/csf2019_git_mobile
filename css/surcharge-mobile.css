@@ -1,3 +1,6 @@
 @charset "utf-8";
 /* CSS Document - Surcharge css Agence*/
 
+.site-banner .logo:before {
+    height: 132px;
+}
