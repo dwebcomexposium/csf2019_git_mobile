@@ -4,3 +4,22 @@
 .site-banner .logo:before {
     height: 132px;
 }
+
+.quicklinks-principaux li:first-child {
+    display: block;
+}
+.quicklinks-principaux .ql-item:first-child .btn-primary:after {
+    width: 23px;
+    height: 35px;
+    background-image: url(images/clock-blue.svg);
+}
+.quicklinks-principaux .ql-item:nth-child(2) .btn-primary:after {
+    width: 23px;
+    height: 35px;
+    background-image: url(images/shop-blue.svg);
+}
+.quicklinks-principaux .ql-item:nth-child(3) .btn-primary:after {
+    width: 29px;
+    height: 29px;
+    background-image: url(images/ticket-blue.svg);
+}
